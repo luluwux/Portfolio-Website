@@ -24,8 +24,8 @@ You can start editing the page by modifying `Settings/Congif.js`. The page auto-
 
 - [x] GitHub Repositories section.
 - [x] Technologies Repositories section.
-- [ ] TCurrent Time Spotify listening section.
-
+- [ ] Current Time Spotify listening section.
+- [ ] Phone mode.
 
 
 

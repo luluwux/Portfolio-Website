@@ -2,7 +2,8 @@
 
 - You can edit it and use it as a portfolio. 
 
-![image](https://github.com/luluwux/Portfolio-V01/assets/87658293/601c5b6a-0603-4bce-b99a-063bd8217b6a)
+![image](https://github.com/luluwux/Portfolio-V01/assets/87658293/e74d6435-d972-4933-9416-6e3812195a7a)
+
 
 
 ## Getting Started

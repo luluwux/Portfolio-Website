@@ -2,7 +2,11 @@
 
 - You can edit it and use it as a portfolio. 
 
-![image](https://github.com/luluwux/Portfolio-V01/assets/87658293/e74d6435-d972-4933-9416-6e3812195a7a)
+![image](https://github.com/luluwux/Portfolio-Website/assets/87658293/cf9d4458-f9d5-41fe-8e31-99a048785724)
+<details>
+<img src="https://github.com/luluwux/Portfolio-Website/assets/87658293/2c26b46f-833c-4599-8c45-7e702d106481">
+<img src="https://github.com/luluwux/Portfolio-Website/assets/87658293/63ce77a4-9eb0-47d2-96d5-ef9214ecf098">
+</details>
 
 ## Getting Started
 
@@ -24,7 +28,7 @@ You can start editing the page by modifying `Settings/Congif.js`. The page auto-
 - [x] GitHub Repositories section.
 - [x] Technologies Repositories section.
 - [ ] Current Time Spotify listening section.
-- [ ] Phone mode.
+- [x] Phone mode.
 
 
 

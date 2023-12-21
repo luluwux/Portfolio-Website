@@ -9,7 +9,7 @@ import About from './Components/About/Text';
 import { motion } from "framer-motion";
 import { useScrollReveal } from './Components/hooks';
 
-// Dinamik olarak yüklenen bileşenler
+// Luludan Selam
 const Repositories = dynamic(() => import('./Components/Index/Repo'), { ssr: false });
 const Technologies = dynamic(() => import('./Components/Index/Tech'), { ssr: false });
 

@@ -37,53 +37,55 @@ function DiscordAvatar() {
         setAnimationStarted(true);
     };
     return (
-        <div
-            style={{
-                position: "relative",
-                width: "60px",
-                height: "60px",
-                borderRadius: "50%"
-            }}
-            onLoad={startAnimation}
-            onAnimationEnd={() => setAnimationStarted(true)}
-        >
-            {avatarURL ? (
-                <>
-                    <div
-                        style={{
-                            position: "absolute",
-                            bottom: "-5px",
-                            right: "-5px",
-                            width: "23px",
-                            height: "23px",
-                            borderRadius: "50%",
-                            backgroundColor: statusColor,
-                            border: "5px solid #0f0f0f",
-                            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-                            opacity: animationStarted ? 1 : 0,
-                            transform: animationStarted ? "scale(1)" : "scale(1.5)",
-                            transition: "opacity 0.3s ease-out, transform 0.3s ease-out"
-                        }}
-                    />
-                    <div className={`status-circle ${animationStarted ? "animate" : ""}`}
-                        style={{
-                            borderColor: statusColor
-                        }}></div>
+        <div className="">
+            <div
+                style={{
+                    position: "relative",
+                    width: "60px",
+                    height: "60px",
+                    borderRadius: "50%"
+                }}
+                onLoad={startAnimation}
+                onAnimationEnd={() => setAnimationStarted(true)}
+            >
+                {avatarURL ? (
+                    <>
+                        <div
+                            style={{
+                                position: "absolute",
+                                bottom: "-5px",
+                                right: "-5px",
+                                width: "23px",
+                                height: "23px",
+                                borderRadius: "50%",
+                                backgroundColor: statusColor,
+                                border: "5px solid #0f0f0f",
+                                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                                opacity: animationStarted ? 1 : 0,
+                                transform: animationStarted ? "scale(1)" : "scale(1.5)",
+                                transition: "opacity 0.3s ease-out, transform 0.3s ease-out"
+                            }}
+                        />
+                        <div className={`status-circle ${animationStarted ? "animate" : ""}`}
+                            style={{
+                                borderColor: statusColor
+                            }}></div>
 
-                    <img
-                        src={avatarURL}
-                        alt="Discord Avatar"
-                        style={{
-                            width: "60px",
-                            height: "60px",
-                            borderRadius: "50%",
-                            objectFit: "cover"
-                        }}
-                    />
-                </>
-            ) : (
-                <p>Loading...</p>
-            )}
+                        <img
+                            src={avatarURL}
+                            alt="Discord Avatar"
+                            style={{
+                                width: "60px",
+                                height: "60px",
+                                borderRadius: "50%",
+                                objectFit: "cover"
+                            }}
+                        />
+                    </>
+                ) : (
+                    <p>Loading...</p>
+                )}
+            </div>
         </div>
 
     );

@@ -13,7 +13,7 @@
 
 body {
   background-color: #111010;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif
 }
 
 /* --- Status Circle --- */
@@ -77,9 +77,11 @@ body {
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg,#01dc84, #06b6d3) border-box;
+  background: linear-gradient(45deg, #01dc84, #06b6d3) border-box;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #111010
 }
@@ -109,3 +111,5 @@ body {
   border-radius: inherit;
   background-image: linear-gradient(45deg, #01dc84, #06b6d3);
 }
+
+

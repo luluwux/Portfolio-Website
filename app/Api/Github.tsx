@@ -36,7 +36,7 @@ function GithubProjects()  {
 
     return (
         <div>
-            <div className="flex grid grid-cols-3 gap-8 mt-8 w-[70%] justify-center mx-auto">
+            <div className="grid gap-4 sm:grid-cols-2  lg:grid-cols-3 mt-8 w-[80%] mx-auto">
                 {projects.length > 0 ? (
                     projects.map((project) => (
                         <div className='flex flex-col justify-between transition duration-500 transform hover:scale-110 w-full'>

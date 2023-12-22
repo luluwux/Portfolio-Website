@@ -6,6 +6,7 @@ import Footer from './Components/Static/Footer';
 import Header from './Components/Static/Header';
 import Contact from './Components/Index/Contact';
 import About from './Components/About/Text';
+import Image from 'next/image';
 import { motion } from "framer-motion";
 import { useScrollReveal } from './Components/hooks';
 
@@ -56,7 +57,7 @@ export default function Home() {
       </motion.div>
 
       <Footer />
-      <img className='absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-lg' src="/images/bgsss.svg" alt="" />
+      <Image className='absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-lg' width={1400} height={1000} src="/images/bgsss.svg" alt="" />
     </main>
   );
 }
